@@ -1,0 +1,16 @@
+#numberPlate {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    height: 80px;
+    width: 75px;
+}
+.row-1 {
+    align-self:center;
+}
+.row-2 {
+    align-self: center;
+}
+.row-3 {
+    align-self:center;
+}
