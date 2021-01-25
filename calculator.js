@@ -1,22 +1,17 @@
 function operate (x, y, z) {
-    var z;
-    if (z === "*") {
-        multiply(x,y);
-        else if (z === "+") {
-            add(x, y);
-        else if (z === "-") {
-            subtract(x,y);
-        else if (z === "/") {
-            devide(x, y)
-        }
-        }
-
-        }
+    if (z == "*") {
+    return multiply(x, y);
     }
-
+    else if (z == "+") {
+    return add(x, y);
+    }
+    else if (z == "-") {
+    return subtract(x, y);
+    }
+    else if (z == "/") {
+    return devide(x, y);
+    }
 }
-
-
 function add (x, y) {
     var addOfInt = x+y;
     return addOfInt;
@@ -39,3 +34,5 @@ function devide (x, y) {
     return devInt;
 }
 console.log(devide(8, 2));
+
+console.log(operate(5, 4, "+"));
