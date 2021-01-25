@@ -1,16 +1,57 @@
 #numberPlate {
     display: flex;
     justify-content: space-between;
+    align-content: space-between;
     flex-wrap:wrap;
-    height: 80px;
-    width: 75px;
+    height: 220px;
+    width: 180px;
+}
+#calc-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 98vh;
+}
+#calc-ui {
+    display:flex;
+    flex-wrap:wrap;
+    height:180px;
+    width:140px;
 }
 .row-1 {
-    align-self:center;
 }
 .row-2 {
-    align-self: center;
 }
 .row-3 {
-    align-self:center;
 }
+.row-4 {
+    align-self: center;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+}
+.uibtn {
+    width:40px;
+    height:40px;
+}
+.add {
+
+}
+.subtract {
+
+}
+.devide {
+
+}
+.multiply{
+
+}
+.clear {
+
+}
+.equals {
+    align-self:flex-end;
+}
+
