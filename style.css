@@ -1,20 +1,32 @@
 #numberPlate {
+    border-left:black solid 3px;
+    border-top:black solid 3px;
+    border-bottom:black solid 3px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     flex-wrap:wrap;
     height: 220px;
     width: 180px;
+    align-self:flex-end
 }
-#calc-body {
+#mainbody {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60vh;
     width: 98vh;
 }
+#calc-body {
+    width:350px;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+}
 #calc-ui {
-    margin: 10px;
+    border:black solid 3px;
+    padding: 10px;
     justify-content: space-between;
     align-content: space-between;
     display:flex;
@@ -22,6 +34,18 @@
     flex-wrap:wrap;
     height:220px;
     width:115px;
+    align-self:flex-end;
+}
+#placeholder {
+    border:black solid 3px;
+    height:50px;
+    width:338px;
+    align-self: flex-start;
+    justify-content: center;
+    display:flex;
+}
+#text1 {
+    width:344px;
 }
 .row-1 {
 }
